@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Referenciák – ÉpítőMester Kft.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif']}}}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="font-sans bg-white text-gray-800 antialiased">
+
+<div id="nav-placeholder"></div>
+
+<!-- ══ HERO ══ -->
+<div class="bg-gradient-to-br from-gray-900 to-gray-800 pt-32 pb-20 relative overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1600&q=80"
+         class="w-full h-full object-cover opacity-15" alt="Referenciák"/>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <span class="text-orange-400 font-semibold text-sm tracking-widest uppercase">Befejezett munkáink</span>
+    <h1 class="text-4xl lg:text-5xl font-black text-white mt-3">Referenciák</h1>
+    <p class="text-gray-400 mt-4 max-w-xl mx-auto">Büszkén mutatjuk be néhány kiemelkedő projektünket.</p>
+  </div>
+</div>
+
+<!-- ══ FEATURED SWIPER ══ -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="text-orange-600 font-semibold text-sm tracking-widest uppercase">Kiemelt projektek</span>
+      <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mt-2">Büszkeségeink</h2>
+    </div>
+
+    <div class="swiper portfolio-swiper relative" data-aos="fade-up">
+      <div class="swiper-wrapper pb-14">
+
+        <!-- Projekt 1 -->
+        <div class="swiper-slide">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="rounded-2xl overflow-hidden shadow-xl h-80">
+              <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+                   class="w-full h-full object-cover" alt="Budakeszi Luxusrezidencia"/>
+            </div>
+            <div class="lg:pl-4">
+              <span class="bg-orange-100 text-orange-700 text-xs font-bold px-3 py-1 rounded-full">Lakóépület</span>
+              <h3 class="text-2xl font-black text-gray-900 mt-3 mb-3">Budakeszi Luxusrezidencia</h3>
+              <p class="text-gray-600 leading-relaxed mb-5">480 m²-es egyedi luxuslakóház, energiatanúsítvány A+ kategória. Hőszivattyús fűtés, okosházi rendszer, medence és garázs.</p>
+              <div class="grid grid-cols-2 gap-4">
+                <div><div class="text-xl font-black text-orange-600">480 m²</div><div class="text-gray-500 text-sm">Alapterület</div></div>
+                <div><div class="text-xl font-black text-orange-600">14 hónap</div><div class="text-gray-500 text-sm">Kivitelezési idő</div></div>
+                <div><div class="text-xl font-black text-orange-600">2023</div><div class="text-gray-500 text-sm">Átadás éve</div></div>
+                <div><div class="text-xl font-black text-orange-600">A+</div><div class="text-gray-500 text-sm">Energiaosztály</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projekt 2 -->
+        <div class="swiper-slide">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="rounded-2xl overflow-hidden shadow-xl h-80">
+              <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+                   class="w-full h-full object-cover" alt="Győri Logisztikai Csarnok"/>
+            </div>
+            <div class="lg:pl-4">
+              <span class="bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full">Ipari épület</span>
+              <h3 class="text-2xl font-black text-gray-900 mt-3 mb-3">Győri Logisztikai Csarnok</h3>
+              <p class="text-gray-600 leading-relaxed mb-5">4800 m²-es acélszerkezetes logisztikai csarnok, irodaházzal, szociális egységgel, automatizált dokkolórendszerrel.</p>
+              <div class="grid grid-cols-2 gap-4">
+                <div><div class="text-xl font-black text-orange-600">4 800 m²</div><div class="text-gray-500 text-sm">Alapterület</div></div>
+                <div><div class="text-xl font-black text-orange-600">8 hónap</div><div class="text-gray-500 text-sm">Kivitelezési idő</div></div>
+                <div><div class="text-xl font-black text-orange-600">2022</div><div class="text-gray-500 text-sm">Átadás éve</div></div>
+                <div><div class="text-xl font-black text-orange-600">32 db</div><div class="text-gray-500 text-sm">Dokkolóhely</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projekt 3 -->
+        <div class="swiper-slide">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="rounded-2xl overflow-hidden shadow-xl h-80">
+              <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
+                   class="w-full h-full object-cover" alt="Győri Társasház-felújítás"/>
+            </div>
+            <div class="lg:pl-4">
+              <span class="bg-green-100 text-green-700 text-xs font-bold px-3 py-1 rounded-full">Felújítás</span>
+              <h3 class="text-2xl font-black text-gray-900 mt-3 mb-3">Győri Társasház-felújítás</h3>
+              <p class="text-gray-600 leading-relaxed mb-5">24 lakásos 1970-es építésű lakóépület komplex energetikai felújítása: homlokzat, tető, lépcsőház, fűtési rendszer.</p>
+              <div class="grid grid-cols-2 gap-4">
+                <div><div class="text-xl font-black text-orange-600">24 lakás</div><div class="text-gray-500 text-sm">Lakásszám</div></div>
+                <div><div class="text-xl font-black text-orange-600">5 hónap</div><div class="text-gray-500 text-sm">Kivitelezési idő</div></div>
+                <div><div class="text-xl font-black text-orange-600">2024</div><div class="text-gray-500 text-sm">Átadás éve</div></div>
+                <div><div class="text-xl font-black text-orange-600">42%</div><div class="text-gray-500 text-sm">Energiamegtakarítás</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projekt 4 -->
+        <div class="swiper-slide">
+          <div class="grid lg:grid-cols-2 gap-8 items-center">
+            <div class="rounded-2xl overflow-hidden shadow-xl h-80">
+              <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
+                   class="w-full h-full object-cover" alt="Budaörsi Irodaház"/>
+            </div>
+            <div class="lg:pl-4">
+              <span class="bg-purple-100 text-purple-700 text-xs font-bold px-3 py-1 rounded-full">Generálkivitelezés</span>
+              <h3 class="text-2xl font-black text-gray-900 mt-3 mb-3">Budaörsi Irodaház</h3>
+              <p class="text-gray-600 leading-relaxed mb-5">2200 m²-es, 4 emeletes irodaház teljes generálkivitelezése, parkolóházzal és zöld tetőkerttel, BREEAM-tanúsítvánnyal.</p>
+              <div class="grid grid-cols-2 gap-4">
+                <div><div class="text-xl font-black text-orange-600">2 200 m²</div><div class="text-gray-500 text-sm">Alapterület</div></div>
+                <div><div class="text-xl font-black text-orange-600">11 hónap</div><div class="text-gray-500 text-sm">Kivitelezési idő</div></div>
+                <div><div class="text-xl font-black text-orange-600">2023</div><div class="text-gray-500 text-sm">Átadás éve</div></div>
+                <div><div class="text-xl font-black text-orange-600">BREEAM</div><div class="text-gray-500 text-sm">Minősítés</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROJECT CARDS ══ -->
+<section class="py-6 pb-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-12" data-aos="fade-up">
+      <span class="text-orange-600 font-semibold text-sm tracking-widest uppercase">Összes projekt</span>
+      <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mt-2">További referenciáink</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition-shadow group" data-aos="fade-up" data-aos-delay="0">
+        <div class="h-48 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Projekt"/>
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-orange-600 uppercase tracking-wide">Lakóépület · 2021</span>
+          <h3 class="font-bold text-gray-900 mt-1 mb-1">Szentendrei Ikerlakás</h3>
+          <p class="text-gray-500 text-sm">2×180 m²-es ikerház, hagyományos vázkerámia technológiával.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition-shadow group" data-aos="fade-up" data-aos-delay="80">
+        <div class="h-48 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Projekt"/>
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-blue-600 uppercase tracking-wide">Ipari · 2022</span>
+          <h3 class="font-bold text-gray-900 mt-1 mb-1">Székesfehérvári Gyártócsarnok</h3>
+          <p class="text-gray-500 text-sm">3200 m²-es acélszerkezetes gyártócsarnok teljes infrastruktúrával.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition-shadow group" data-aos="fade-up" data-aos-delay="160">
+        <div class="h-48 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=600&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Projekt"/>
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-green-600 uppercase tracking-wide">Felújítás · 2023</span>
+          <h3 class="font-bold text-gray-900 mt-1 mb-1">XI. ker. Irodafelújítás</h3>
+          <p class="text-gray-500 text-sm">800 m²-es irodaház komplett belső felújítása és energetikai korszerűsítése.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition-shadow group" data-aos="fade-up" data-aos-delay="0">
+        <div class="h-48 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=600&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Projekt"/>
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-orange-600 uppercase tracking-wide">Lakóépület · 2020</span>
+          <h3 class="font-bold text-gray-900 mt-1 mb-1">Veszprémi Sorház (8 egység)</h3>
+          <p class="text-gray-500 text-sm">8 egységes sorház-együttes, egyedi kialakítással, közös parkolóval.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition-shadow group" data-aos="fade-up" data-aos-delay="80">
+        <div class="h-48 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Projekt"/>
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-purple-600 uppercase tracking-wide">Generálkivitelezés · 2021</span>
+          <h3 class="font-bold text-gray-900 mt-1 mb-1">Dunakeszi Kereskedelmi Centrum</h3>
+          <p class="text-gray-500 text-sm">1400 m²-es kiskereskedelmi egység, parkolóval és kiszolgáló épülettel.</p>
+        </div>
+      </div>
+
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 hover:shadow-lg transition-shadow group" data-aos="fade-up" data-aos-delay="160">
+        <div class="h-48 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=600&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Projekt"/>
+        </div>
+        <div class="p-5">
+          <span class="text-xs font-bold text-orange-600 uppercase tracking-wide">Lakóépület · 2024</span>
+          <h3 class="font-bold text-gray-900 mt-1 mb-1">Budai Passzívház</h3>
+          <p class="text-gray-500 text-sm">320 m²-es passzívház standard szerint épített, A+++ energiaosztályú családi ház.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="py-16 bg-gradient-to-r from-orange-700 to-orange-500">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-black text-white mb-4">Legyen a következő projekt az Öné!</h2>
+    <p class="text-orange-100 text-lg mb-8">Kérjen ingyenes helyszíni felmérést és részletes árajánlatot.</p>
+    <a href="kapcsolat.html" class="inline-flex items-center gap-2 bg-white text-orange-700 font-bold px-8 py-3.5 rounded-xl hover:bg-orange-50 transition-colors shadow-lg">
+      <i data-lucide="send" class="w-4 h-4"></i>
+      Ajánlatot kérek
+    </a>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    new Swiper('.portfolio-swiper', {
+      loop: true,
+      navigation: {
+        nextEl: '.portfolio-swiper .swiper-button-next',
+        prevEl: '.portfolio-swiper .swiper-button-prev',
+      },
+      pagination: { el: '.portfolio-swiper .swiper-pagination', clickable: true },
+    });
+  });
+</script>
+</body>
+</html>

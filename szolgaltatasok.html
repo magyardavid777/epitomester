@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Szolgáltatások – ÉpítőMester Kft.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif']}}}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="font-sans bg-white text-gray-800 antialiased">
+
+<div id="nav-placeholder"></div>
+
+<!-- ══ HERO ══ -->
+<div class="bg-gradient-to-br from-gray-900 to-gray-800 pt-32 pb-20 relative overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80"
+         class="w-full h-full object-cover opacity-15" alt="Szolgáltatások"/>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <span class="text-orange-400 font-semibold text-sm tracking-widest uppercase">Amit kínálunk</span>
+    <h1 class="text-4xl lg:text-5xl font-black text-white mt-3">Szolgáltatásaink</h1>
+    <p class="text-gray-400 mt-4 max-w-xl mx-auto">Teljes körű építőipari megoldások a tervezéstől a kulcsátadásig.</p>
+  </div>
+</div>
+
+<!-- ══ MAIN SERVICES ══ -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-8">
+
+      <!-- Card 1 -->
+      <div class="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition-shadow" data-aos="fade-up">
+        <div class="relative h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Lakóépület"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent"></div>
+          <div class="absolute bottom-4 left-6">
+            <span class="bg-orange-600 text-white text-xs font-bold px-3 py-1 rounded-full">Legkeresettebb</span>
+          </div>
+        </div>
+        <div class="p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+              <i data-lucide="home" class="w-5 h-5 text-orange-600"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 text-xl">Lakóépület-kivitelezés</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed mb-5">Egyedi igények alapján tervezett és kivitelezett családi házak, ikerházak, sorházak és kis társasházak teljes körű megvalósítása. Az alapozástól a kulcsátadásig.</p>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Alapozás és szerkezeti munkák</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Ács-tetőfedő munkák</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Gépészeti és villanyszerelési munkák</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Beltéri és kültéri burkolás, festés</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="100">
+        <div class="relative h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=800&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Ipari épület"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent"></div>
+        </div>
+        <div class="p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+              <i data-lucide="building-2" class="w-5 h-5 text-orange-600"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 text-xl">Ipari & kereskedelmi épületek</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed mb-5">Raktárak, gyártócsarnokok, irodaházak és kereskedelmi egységek kivitelezése. Acélszerkezetes és vasbeton rendszerű épületek egyaránt.</p>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Acélcsarnok kivitelezés</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Ipari padló- és burkolatkivitelezés</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Tűzvédelmi rendszerek</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Irodai és szociális kialakítás</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition-shadow" data-aos="fade-up">
+        <div class="relative h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Felújítás"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent"></div>
+        </div>
+        <div class="p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+              <i data-lucide="wrench" class="w-5 h-5 text-orange-600"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 text-xl">Felújítás & korszerűsítés</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed mb-5">Lakóházak, irodák és ipari épületek teljes körű felújítása – homlokzattól a beltérig. Energetikai korszerűsítési munkák EU-s forrásból is.</p>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Homlokzat-hőszigetelés, vakolás</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Tetőfelújítás és -csere</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Nyílászáró-csere</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Fűtési rendszer-korszerűsítés</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="group bg-white border border-gray-200 rounded-2xl overflow-hidden hover:shadow-xl transition-shadow" data-aos="fade-up" data-aos-delay="100">
+        <div class="relative h-56 overflow-hidden">
+          <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
+               class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Generálkivitelezés"/>
+          <div class="absolute inset-0 bg-gradient-to-t from-gray-900/70 to-transparent"></div>
+        </div>
+        <div class="p-8">
+          <div class="flex items-center gap-3 mb-4">
+            <div class="w-10 h-10 bg-orange-100 rounded-lg flex items-center justify-center">
+              <i data-lucide="layers" class="w-5 h-5 text-orange-600"></i>
+            </div>
+            <h3 class="font-bold text-gray-900 text-xl">Generálkivitelezés</h3>
+          </div>
+          <p class="text-gray-600 leading-relaxed mb-5">Egyetlen kapcsolattartóval az egész projekt – tervezéstől az engedélyezésen át a kulcsátadásig. Koordináljuk az összes alvállalkozót és hatóságot.</p>
+          <ul class="space-y-2">
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Engedélyeztetési eljárás</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Alvállalkozó-koordináció</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Heti előrehaladási riportok</li>
+            <li class="flex items-center gap-2 text-sm text-gray-600"><i data-lucide="check-circle" class="w-4 h-4 text-orange-500 flex-shrink-0"></i>Kulcsrakész átadás</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROCESS STEPS ══ -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="text-orange-600 font-semibold text-sm tracking-widest uppercase">Hogyan dolgozunk?</span>
+      <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mt-2">A kivitelezés folyamata</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 items-start">
+      <div class="text-center" data-aos="fade-up" data-aos-delay="0">
+        <div class="w-14 h-14 rounded-full bg-orange-600 text-white text-xl font-black flex items-center justify-center mx-auto mb-4 shadow-lg">1</div>
+        <h3 class="font-bold text-gray-900 mb-2">Kapcsolatfelvétel</h3>
+        <p class="text-gray-500 text-sm">Töltse ki az ajánlatkérő formot vagy hívja az irodánkat.</p>
+      </div>
+      <div class="hidden lg:flex items-center justify-center pt-4">
+        <i data-lucide="arrow-right" class="w-6 h-6 text-orange-300"></i>
+      </div>
+      <div class="text-center" data-aos="fade-up" data-aos-delay="100">
+        <div class="w-14 h-14 rounded-full bg-orange-600 text-white text-xl font-black flex items-center justify-center mx-auto mb-4 shadow-lg">2</div>
+        <h3 class="font-bold text-gray-900 mb-2">Helyszíni felmérés</h3>
+        <p class="text-gray-500 text-sm">Ingyenes helyszíni szemle, igények egyeztetése.</p>
+      </div>
+      <div class="hidden lg:flex items-center justify-center pt-4">
+        <i data-lucide="arrow-right" class="w-6 h-6 text-orange-300"></i>
+      </div>
+      <div class="text-center" data-aos="fade-up" data-aos-delay="200">
+        <div class="w-14 h-14 rounded-full bg-orange-600 text-white text-xl font-black flex items-center justify-center mx-auto mb-4 shadow-lg">3</div>
+        <h3 class="font-bold text-gray-900 mb-2">Részletes árajánlat</h3>
+        <p class="text-gray-500 text-sm">Tételes, korrekt ajánlat rejtett költségek nélkül.</p>
+      </div>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 items-start mt-8 lg:mt-6">
+      <div></div>
+      <div class="text-center" data-aos="fade-up" data-aos-delay="300">
+        <div class="w-14 h-14 rounded-full bg-orange-600 text-white text-xl font-black flex items-center justify-center mx-auto mb-4 shadow-lg">4</div>
+        <h3 class="font-bold text-gray-900 mb-2">Kivitelezés</h3>
+        <p class="text-gray-500 text-sm">Szakszerű munkavégzés, folyamatos kommunikáció.</p>
+      </div>
+      <div class="hidden lg:flex items-center justify-center pt-4">
+        <i data-lucide="arrow-right" class="w-6 h-6 text-orange-300"></i>
+      </div>
+      <div class="text-center" data-aos="fade-up" data-aos-delay="400">
+        <div class="w-14 h-14 rounded-full bg-orange-700 text-white text-xl font-black flex items-center justify-center mx-auto mb-4 shadow-lg ring-4 ring-orange-200">5</div>
+        <h3 class="font-bold text-gray-900 mb-2">Kulcsátadás</h3>
+        <p class="text-gray-500 text-sm">Dokumentált átadás-átvétel, garancianyilatkozat.</p>
+      </div>
+      <div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ GUARANTEE STRIP ══ -->
+<section class="py-16 bg-gray-900">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid sm:grid-cols-3 gap-8 text-center text-white">
+      <div data-aos="fade-up" data-aos-delay="0">
+        <div class="w-14 h-14 bg-orange-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="shield-check" class="w-7 h-7 text-orange-400"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-2">5 év szerkezeti garancia</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">Minden elvégzett munkánkra dokumentált garanciát vállalunk.</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="100">
+        <div class="w-14 h-14 bg-orange-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="file-text" class="w-7 h-7 text-orange-400"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-2">ISO 9001 minősítés</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">Minőségirányítási rendszerünk megfelel a nemzetközi szabványoknak.</p>
+      </div>
+      <div data-aos="fade-up" data-aos-delay="200">
+        <div class="w-14 h-14 bg-orange-600/20 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="headphones" class="w-7 h-7 text-orange-400"></i>
+        </div>
+        <h3 class="font-bold text-lg mb-2">Folyamatos ügyfélszolgálat</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">Munkanapjain 8–17 óráig elérhetők vagyunk telefonon és e-mailen.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="py-16 bg-gradient-to-r from-orange-700 to-orange-500">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-black text-white mb-4">Érdekli valamelyik szolgáltatásunk?</h2>
+    <p class="text-orange-100 text-lg mb-8">Kérjen ingyenes helyszíni felmérést – kötelezettség nélkül.</p>
+    <a href="kapcsolat.html" class="inline-flex items-center gap-2 bg-white text-orange-700 font-bold px-8 py-3.5 rounded-xl hover:bg-orange-50 transition-colors shadow-lg">
+      <i data-lucide="send" class="w-4 h-4"></i>
+      Ajánlatot kérek
+    </a>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

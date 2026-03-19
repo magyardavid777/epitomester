@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rólunk – ÉpítőMester Kft.</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','sans-serif']}}}}</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body class="font-sans bg-white text-gray-800 antialiased">
+
+<div id="nav-placeholder"></div>
+
+<!-- ══ HERO ══ -->
+<div class="bg-gradient-to-br from-gray-900 to-gray-800 pt-32 pb-20 relative overflow-hidden">
+  <div class="absolute inset-0">
+    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1600&q=80"
+         class="w-full h-full object-cover opacity-15" alt="Csapat"/>
+  </div>
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <span class="text-orange-400 font-semibold text-sm tracking-widest uppercase">Bemutatkozás</span>
+    <h1 class="text-4xl lg:text-5xl font-black text-white mt-3">Rólunk</h1>
+    <p class="text-gray-400 mt-4 max-w-xl mx-auto">Ismerje meg az ÉpítőMester Kft. csapatát, értékeinket és 15 éves történetünket.</p>
+  </div>
+</div>
+
+<!-- ══ STORY ══ -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid lg:grid-cols-2 gap-16 items-center">
+      <div data-aos="fade-right">
+        <span class="text-orange-600 font-semibold text-sm tracking-widest uppercase">Cégünkről</span>
+        <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mt-3 mb-6">Alapítva 2008-ban, Magyarországon</h2>
+        <p class="text-gray-600 leading-relaxed mb-5">
+          Az ÉpítőMester Kft.-t Horváth Péter alapította 2008-ban azzal a céllal, hogy a kisebb és közepes méretű kivitelezési vállalkozások hiányát pótolja a piacon. Azóta több mint 320 projektet teljesítettünk sikeresen Közép-Magyarországon és a Dunántúlon.
+        </p>
+        <p class="text-gray-600 leading-relaxed mb-5">
+          Csapatunk 45 fős szakképzett munkatársból áll – mérnökök, kőművesek, ács-tetőfedők, burkolók –, akik mindannyian elkötelezetten képviselik a minőségi munka értékeit.
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          Büszkék vagyunk arra, hogy megrendelőink döntő többsége visszatérő ügyfél, illetve ajánlás útján talál ránk – ez a bizalom a legjobb visszajelzés.
+        </p>
+      </div>
+      <div class="relative" data-aos="fade-left">
+        <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=700&q=80"
+             class="rounded-2xl w-full h-80 object-cover shadow-xl" alt="Csapat munkában"/>
+        <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl p-5 shadow-xl border border-gray-100">
+          <div class="text-3xl font-black text-orange-600">320+</div>
+          <div class="text-gray-500 text-sm">befejezett projekt</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ VALUES ══ -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="text-orange-600 font-semibold text-sm tracking-widest uppercase">Értékeink</span>
+      <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mt-2">Amiben hiszünk</h2>
+    </div>
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div class="text-center p-7 bg-white rounded-2xl shadow-sm border border-gray-100" data-aos="fade-up" data-aos-delay="0">
+        <div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="award" class="w-7 h-7 text-orange-600"></i>
+        </div>
+        <h3 class="font-bold text-gray-900 mb-2">Minőség</h3>
+        <p class="text-gray-500 text-sm leading-relaxed">Csak minősített alapanyagokat használunk, munkánkat szigorú belső ellenőrzés kíséri.</p>
+      </div>
+      <div class="text-center p-7 bg-white rounded-2xl shadow-sm border border-gray-100" data-aos="fade-up" data-aos-delay="100">
+        <div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="handshake" class="w-7 h-7 text-orange-600"></i>
+        </div>
+        <h3 class="font-bold text-gray-900 mb-2">Megbízhatóság</h3>
+        <p class="text-gray-500 text-sm leading-relaxed">Betartjuk, amit ígérünk – határidőben, árban és kivitelezési minőségben egyaránt.</p>
+      </div>
+      <div class="text-center p-7 bg-white rounded-2xl shadow-sm border border-gray-100" data-aos="fade-up" data-aos-delay="200">
+        <div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="leaf" class="w-7 h-7 text-orange-600"></i>
+        </div>
+        <h3 class="font-bold text-gray-900 mb-2">Fenntarthatóság</h3>
+        <p class="text-gray-500 text-sm leading-relaxed">Energiahatékony megoldásokat alkalmazunk, minimalizáljuk az építési hulladékot.</p>
+      </div>
+      <div class="text-center p-7 bg-white rounded-2xl shadow-sm border border-gray-100" data-aos="fade-up" data-aos-delay="300">
+        <div class="w-14 h-14 bg-orange-100 rounded-2xl flex items-center justify-center mx-auto mb-4">
+          <i data-lucide="users" class="w-7 h-7 text-orange-600"></i>
+        </div>
+        <h3 class="font-bold text-gray-900 mb-2">Csapatmunka</h3>
+        <p class="text-gray-500 text-sm leading-relaxed">Szoros együttműködés megrendelőkkel, tervezőkkel és alvállalkozókkal.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TIMELINE ══ -->
+<section class="py-20 bg-white">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="text-orange-600 font-semibold text-sm tracking-widest uppercase">Mérföldkövek</span>
+      <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mt-2">Cégünk története</h2>
+    </div>
+    <div class="relative pl-8 border-l-2 border-gray-200 space-y-10">
+      <div class="relative" data-aos="fade-right">
+        <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-orange-600 border-4 border-white shadow"></div>
+        <span class="text-orange-600 font-bold text-sm">2008</span>
+        <h3 class="font-bold text-gray-900 text-lg mt-1">Alapítás</h3>
+        <p class="text-gray-500 text-sm mt-1">Az ÉpítőMester Kft. megalapítása 3 fős csapattal, az első kisebb lakóépület-kivitelezéssel.</p>
+      </div>
+      <div class="relative" data-aos="fade-right" data-aos-delay="100">
+        <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-orange-600 border-4 border-white shadow"></div>
+        <span class="text-orange-600 font-bold text-sm">2012</span>
+        <h3 class="font-bold text-gray-900 text-lg mt-1">Ipari divízió megnyitása</h3>
+        <p class="text-gray-500 text-sm mt-1">Az első 3000 m²-es ipari csarnok sikeres átadása, belépés az ipari kivitelezési piacra.</p>
+      </div>
+      <div class="relative" data-aos="fade-right" data-aos-delay="150">
+        <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-orange-600 border-4 border-white shadow"></div>
+        <span class="text-orange-600 font-bold text-sm">2016</span>
+        <h3 class="font-bold text-gray-900 text-lg mt-1">ISO 9001 minősítés</h3>
+        <p class="text-gray-500 text-sm mt-1">Megkaptuk az ISO 9001:2015 minőségirányítási tanúsítványt. A csapat 20 főre bővült.</p>
+      </div>
+      <div class="relative" data-aos="fade-right" data-aos-delay="200">
+        <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-orange-600 border-4 border-white shadow"></div>
+        <span class="text-orange-600 font-bold text-sm">2020</span>
+        <h3 class="font-bold text-gray-900 text-lg mt-1">100. projekt</h3>
+        <p class="text-gray-500 text-sm mt-1">A 100. sikeresen átadott projektet ünnepeltük – a csapat ekkorra 35 főre nőtt.</p>
+      </div>
+      <div class="relative" data-aos="fade-right" data-aos-delay="250">
+        <div class="absolute -left-[41px] top-1 w-5 h-5 rounded-full bg-orange-500 border-4 border-white shadow ring-4 ring-orange-200"></div>
+        <span class="text-orange-600 font-bold text-sm">2024 – ma</span>
+        <h3 class="font-bold text-gray-900 text-lg mt-1">320+ projekt, 45 munkatárs</h3>
+        <p class="text-gray-500 text-sm mt-1">Regionálisan elismert kivitelező, folyamatos fejlődéssel és terjeszkedéssel.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TEAM SWIPER ══ -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14" data-aos="fade-up">
+      <span class="text-orange-600 font-semibold text-sm tracking-widest uppercase">Csapatunk</span>
+      <h2 class="text-3xl lg:text-4xl font-black text-gray-900 mt-2">Ismerje meg a vezetőinket</h2>
+    </div>
+    <div class="swiper team-swiper" data-aos="fade-up">
+      <div class="swiper-wrapper pb-12">
+        <div class="swiper-slide">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 text-center p-7">
+            <div class="w-24 h-24 rounded-full bg-gradient-to-br from-orange-400 to-orange-700 flex items-center justify-center text-white font-black text-3xl mx-auto mb-4">HP</div>
+            <h3 class="font-bold text-gray-900 text-lg">Horváth Péter</h3>
+            <p class="text-orange-600 text-sm font-medium mt-0.5">Ügyvezető igazgató</p>
+            <p class="text-gray-500 text-sm mt-3 leading-relaxed">Okleveles építészmérnök, 20 éves szakmai tapasztalattal az építőiparban.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 text-center p-7">
+            <div class="w-24 h-24 rounded-full bg-gradient-to-br from-blue-400 to-blue-700 flex items-center justify-center text-white font-black text-3xl mx-auto mb-4">SV</div>
+            <h3 class="font-bold text-gray-900 text-lg">Szabó Veronika</h3>
+            <p class="text-orange-600 text-sm font-medium mt-0.5">Műszaki vezető</p>
+            <p class="text-gray-500 text-sm mt-3 leading-relaxed">Szerkezetépítő mérnök, az ipari projektek felelős műszaki vezetője 12 éve.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 text-center p-7">
+            <div class="w-24 h-24 rounded-full bg-gradient-to-br from-green-400 to-green-700 flex items-center justify-center text-white font-black text-3xl mx-auto mb-4">TG</div>
+            <h3 class="font-bold text-gray-900 text-lg">Tóth Gábor</h3>
+            <p class="text-orange-600 text-sm font-medium mt-0.5">Projektvezető</p>
+            <p class="text-gray-500 text-sm mt-3 leading-relaxed">PMP-tanúsított projektvezető, lakóépületek és társasházak specialistája.</p>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="bg-white rounded-2xl shadow-sm border border-gray-100 text-center p-7">
+            <div class="w-24 h-24 rounded-full bg-gradient-to-br from-purple-400 to-purple-700 flex items-center justify-center text-white font-black text-3xl mx-auto mb-4">FK</div>
+            <h3 class="font-bold text-gray-900 text-lg">Fekete Katalin</h3>
+            <p class="text-orange-600 text-sm font-medium mt-0.5">Pénzügyi igazgató</p>
+            <p class="text-gray-500 text-sm mt-3 leading-relaxed">Közgazdász, az ÉpítőMester pénzügyi és kontrolling területének vezetője.</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA ══ -->
+<section class="py-16 bg-gradient-to-r from-orange-700 to-orange-500">
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 class="text-3xl font-black text-white mb-4">Dolgozzunk együtt!</h2>
+    <p class="text-orange-100 text-lg mb-8">Kérjen ingyenes helyszíni felmérést és részletes árajánlatot.</p>
+    <a href="kapcsolat.html" class="inline-flex items-center gap-2 bg-white text-orange-700 font-bold px-8 py-3.5 rounded-xl hover:bg-orange-50 transition-colors shadow-lg">
+      <i data-lucide="send" class="w-4 h-4"></i>
+      Kapcsolatfelvétel
+    </a>
+  </div>
+</section>
+
+<div id="footer-placeholder"></div>
+
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="js/main.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    new Swiper('.team-swiper', {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 20,
+      breakpoints: {
+        640:  { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      },
+      pagination: { el: '.team-swiper .swiper-pagination', clickable: true },
+    });
+  });
+</script>
+</body>
+</html>
