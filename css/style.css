@@ -1,0 +1,67 @@
+/* ── Page-level ── */
+html { scroll-behavior: smooth; }
+
+/* ── Navbar scroll shadow ── */
+.navbar-scrolled { box-shadow: 0 2px 24px rgba(0,0,0,.15); }
+
+/* ── Hero gradient text ── */
+.gradient-text {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 50%, #fbbf24 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Swiper custom bullets ── */
+.swiper-pagination-bullet-active { background: #f97316 !important; }
+.swiper-button-next, .swiper-button-prev { color: #f97316 !important; }
+
+/* ── Service card hover ── */
+.service-card { transition: transform .3s, box-shadow .3s; }
+.service-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,.12); }
+
+/* ── Timeline ── */
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -1px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, #f97316, #ea580c);
+}
+
+/* ── Mobile menu ── */
+#mobile-menu {
+  transition: max-height .35s ease, opacity .35s ease;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+#mobile-menu.open { max-height: 400px; opacity: 1; }
+
+/* ── Active nav link ── */
+.nav-link { position: relative; }
+.nav-link.active { color: #f97316 !important; }
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px; left: 0;
+  height: 2px;
+  width: 0;
+  background: #f97316;
+  transition: width .3s;
+}
+.nav-link:hover::after,
+.nav-link.active::after { width: 100%; }
+
+/* ── Scroll-to-top button ── */
+#scroll-top {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s;
+}
+#scroll-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
